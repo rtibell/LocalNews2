@@ -14,7 +14,7 @@ git pull
 git branch <dev_branch_name> 
 git checkout <dev_branch_name>
 git commit -m "first branch commit"
-git push -j origin <dev_branch_name>
+git push -u origin <dev_branch_name>
 
 ==== Merge in changes from main (periodically)
 git merge main
